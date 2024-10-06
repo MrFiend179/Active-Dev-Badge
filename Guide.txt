@@ -1,0 +1,34 @@
+To use this script make a discord bot {https://discord.com/developers/applications} and then copy the "Bots Token" and "Bots ID"
+
+Then make a server and make sure that community is enabled in that server
+
+Invite the discord bot to that server and make sure hes has ('bot' and 'application.command' permission checked) in the URL generator
+
+Then download the requisites mentioned below
+
+1-node.js (from their website)
+
+--The following steps should be performed after node.js has been installed on your pc
+
+1-bioler template (npm init -y) [inside terminal]---
+
+    (Then at 6th line add this ["type": "module",] and make sure to put "," at then end of 5th line)
+
+2-discord.js (npm i discord.js) [inside terminal]
+
+3-discordjs/rest (npm i @discordjs/rest) [inside terminal]
+
+
+4-dotenv (npm i dotenv) [inside terminal]
+
+After everythig has been installed paste your discord bot token inside ".env" , like this as an example (DB_TOKEN=MTA0Mzg4MzQyNjU4MDc5NTQzMg.GqIFR2.60YoH5Bj-5C0StlRAp7gKpz20VmarpRkoluEYs)
+
+Then copy yor client id or "Application ID" and paste it inside "index.js" at 25th line , example (const CLIENT_ID = '1043883426580795432')
+
+Then copy yor servers id in which the bot is and paste it inside "index.js" at 26th line , example (const GUILD_ID = '988824696860573798')
+
+and after that go to the terminal and type the following command
+
+node index.js
+
+---(Still If u need any help u can ask me in my discord server [fiend#9041])---
