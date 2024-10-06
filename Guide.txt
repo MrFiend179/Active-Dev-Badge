@@ -21,7 +21,7 @@ Then download the requisites mentioned below
 
 4-dotenv (npm i dotenv) [inside terminal]
 
-After everythig has been installed paste your discord bot token inside ".env" , like this as an example (DB_TOKEN=MTA0Mzg4MzQyNjU4MDc5NTQzMg.GqIFR2.60YoH5Bj-5C0StlRAp7gKpz20VmarpRkoluEYs)
+After everythig has been installed paste your discord bot token inside ".env"
 
 Then copy yor client id or "Application ID" and paste it inside "index.js" at 25th line , example (const CLIENT_ID = '1043883426580795432')
 
